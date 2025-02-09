@@ -1,0 +1,45 @@
+nav{
+    display:flex;
+   gap:8em; 
+}
+.bar{
+    position: relative;
+    right:-10px;
+    display:flex;
+    gap:8em;
+}
+.logo{
+    padding-left:80px;
+}
+.one , .two , .three{
+   font-size:20px;
+   font-weight: bold;
+   list-style: none;
+   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+section{
+    background-image: url("pic.png");
+    width:100%;
+    height: 600px;
+}
+section h1{
+    font-size:70px;
+    width:20px;
+position: relative;
+padding-top:60px;
+padding-left:50px;
+font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+section p{
+    font-size:20px;
+    padding-left:60px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+section input{
+    width:100px;
+    height: 30px;
+    margin-left:60px;
+    font-size:15px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}

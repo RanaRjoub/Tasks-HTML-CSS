@@ -1,0 +1,45 @@
+body{
+    background-color: gray;
+    margin:0px;
+    
+}
+nav{
+     background-color: orange;
+     border:solid rgba(0, 0, 0, 0.349) 2px;
+     border-bottom: 2px solid black;
+     text-shadow:0px 0px 15px rgb(255, 255, 255) ;
+     
+}
+nav .title{
+    padding: 0;
+    margin:0px;
+
+    text-align: center;
+    height: 20px;
+    color:white;
+    font-size: 25px;
+   height:30px;
+   padding-top:10px ;
+  
+}
+section{
+    display: flex;
+    padding-top: 100px;
+   margin-top: 100px;
+}
+.one , .two , .three{
+    
+    border:2px solid orange;
+    box-shadow: 0px 0px 15px rgb(255, 255, 255);
+    margin-right:30px;
+    margin-left: 30px;
+  display: inline-block;
+ text-align: center;
+  border-radius: 5%;
+  padding-bottom:40px;
+  padding-top:30px;
+}
+.button{
+    background-color: gray;
+    height:30px;
+}

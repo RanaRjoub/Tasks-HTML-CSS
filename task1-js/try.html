@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>practice</title>
+        <script src="try.js" defer></script>
+        <link rel="stylesheet" href="try.css">
+    </head>
+    <body>
+        <div class="crud">
+        <h2 style="text-align:center">CRUDS</h2>
+        <div id="input-section">
+<input type="text" placeholder="text" id="title">
+<div class="price">
+<input type="number" placeholder="price" id="price" onkeyup='getTotal()' >
+<input type="number" placeholder="taxes" id="tax" onkeyup='getTotal()'>
+<input type="number" placeholder="ads" id="ads" onkeyup='getTotal()'>
+<input type="number" placeholder="discount" id="discount" onkeyup='getTotal()'>
+<small id="total"></small>
+</div>
+<input type="text" placeholder="count" id="count">
+<input type="text" placeholder="category" id="category">
+<button id="submit">create</button>
+</div>
+<div class="output">
+    <div class="searchBlock">
+        <input type="text" placeholder="search" id="search" onkeyup="searchData(this.value)">
+        <div class="btn">
+        <button id="searchTitle" onclick="search(this.id)">Search by Title</button>
+        <button id="searchCategory"onclick="search(this.id)">Search by Category</button>
+        </div>
+    </div>
+</div>
+<div id="deleteAll">
+    
+</div>
+<table>
+    <tr>
+        <th>ID</th>
+        <th>TITLE</th>
+        <th>PRICE</th>
+        <th>TAXES</th>
+        <th>ADS</th>
+        <th>DISCOUNT</th>
+        <th>TOTAL</th>
+        <th>CATEGORY</th>
+        <th>UPDATE</th>
+        <th>DELETE</th>
+    </tr>
+    <tbody id="tbody">
+   
+    </tbody>
+</table>
+</div>
+
+    </body>
+</html>
